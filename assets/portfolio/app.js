@@ -1,4 +1,4 @@
-import { fragments, words, bio } from '/assets/portfolio/content.js?v=work-focus-20261020';
+import { fragments, words, bio } from '/assets/portfolio/content.js?v=contact-20261020';
 import { mountNotes, getLatestNotes, topics, subscribeNotes } from '/assets/portfolio/notes.js?v=work-focus-20261020';
 
 const root=document.documentElement,main=document.getElementById('main'),header=document.getElementById('site-header'),footer=document.getElementById('site-footer');
