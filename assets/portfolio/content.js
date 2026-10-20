@@ -262,13 +262,13 @@ export const words = {
 
 export const bio = {
   "zh": {
-    "headline": "研究 AI，构建可用的系统。",
-    "intro": "我是曹越然，AI 工程师与研究者。工作连接机器学习、软件开发与实际应用，关注模型能力如何转化为可靠的工程结果。目前在金珵科技担任 FDE；此前完成乔治城大学计算机科学硕士，并以第一作者开展 SurgClip 视觉语言研究。",
-    "approach": "我的兴趣横跨视觉语言、模型效率与软件系统。研究中，我重视问题定义、对照实验与结论边界；工程中，我关注接口、运行约束和维护成本。希望以扎实的实现与清晰的技术判断，让新的方法经得起检验，也能进入实际使用。"
+    "headline": "AI 工程与软件系统。",
+    "intro": "我是曹越然，目前在金珵科技担任 FDE 工程师。工作横跨机器学习、模型优化与软件开发，连接需求分析、模型验证、系统集成和部署交付。以 Python 为主要开发语言，结合 C++、Java 与 SQL，在模型效果、代码质量和运行约束之间作出技术判断，推动方案从实现走向应用。",
+    "approach": "我从需求、约束和验收标准出发，将复杂问题拆解为可验证的模块。技术选型兼顾模型效果、系统性能与维护成本；实现过程重视清晰的接口、测试与文档，让方案便于协作、迭代和持续交付。"
   },
   "en": {
-    "headline": "Researching AI. Building systems that work.",
-    "intro": "I’m Yueran Cao, an AI engineer and researcher working across machine learning, software development and applied systems. I focus on turning model capabilities into reliable engineering outcomes. I’m currently an FDE at Jincheng Technology, hold an M.S. in Computer Science from Georgetown University, and am the first author of SurgClip.",
-    "approach": "My interests span vision–language learning, model efficiency and software systems. In research, I value clear problem formulation, controlled comparisons and well-supported conclusions. In engineering, I pay attention to interfaces, operating constraints and maintenance costs. I aim to pair solid implementation with sound technical judgment, so new methods can be both tested and put to use."
+    "headline": "AI engineering. Software systems.",
+    "intro": "I’m Yueran Cao, a Forward Deployed Engineer at Jincheng Technology. My work spans machine learning, model optimization and software development, connecting requirements, model validation, systems integration and deployment. I work primarily in Python, alongside C++, Java and SQL, balancing model performance, code quality and operating constraints to move solutions from implementation into use.",
+    "approach": "I start with requirements, constraints and acceptance criteria, breaking complex problems into modules that can be tested. My technical choices balance model quality, system performance and maintenance costs. Clear interfaces, tests and documentation make the work easier to collaborate on, improve and deliver."
   }
 };
