@@ -268,12 +268,12 @@ export const words = {
 export const bio = {
   "zh": {
     "headline": "AI 工程与软件系统。",
-    "intro": "我是曹越然，目前在金珵科技担任 FDE 工程师。工作横跨机器学习、模型优化与软件开发，连接需求分析、模型验证、系统集成和部署交付。以 Python 为主要开发语言，结合 C++、Java 与 SQL，在模型效果、代码质量和运行约束之间作出技术判断，推动方案从实现走向应用。",
+    "intro": "我是曹越然，金珵科技 FDE 工程师，专注 AI 工程、全栈开发与端到端交付。擅长将模型能力、产品思维和系统工程贯通，把复杂需求转化为可运行、可扩展的产品与系统。从技术方案、模型优化到全栈实现与部署集成，兼顾效果、性能与工程质量，让技术能力转化为实际业务价值。",
     "approach": "我从需求、约束和验收标准出发，将复杂问题拆解为可验证的模块。技术选型兼顾模型效果、系统性能与维护成本；实现过程重视清晰的接口、测试与文档，让方案便于协作、迭代和持续交付。"
   },
   "en": {
     "headline": "AI engineering. Software systems.",
-    "intro": "I’m Yueran Cao, a Forward Deployed Engineer at Jincheng Technology. My work spans machine learning, model optimization and software development, connecting requirements, model validation, systems integration and deployment. I work primarily in Python, alongside C++, Java and SQL, balancing model performance, code quality and operating constraints to move solutions from implementation into use.",
+    "intro": "I’m Yueran Cao, a Forward Deployed Engineer at Jincheng Technology specializing in AI engineering, full-stack development and end-to-end delivery. I bring together machine learning, product thinking and systems engineering to turn complex requirements into working, extensible products and systems. From solution design and model optimization to full-stack implementation and deployment, I balance performance, reliability and engineering quality to deliver practical business value.",
     "approach": "I start with requirements, constraints and acceptance criteria, breaking complex problems into modules that can be tested. My technical choices balance model quality, system performance and maintenance costs. Clear interfaces, tests and documentation make the work easier to collaborate on, improve and deliver."
   }
 };
