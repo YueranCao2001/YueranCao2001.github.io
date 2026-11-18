@@ -1,4 +1,4 @@
-import { fragments, words, bio } from '/assets/portfolio/content.js?v=folio-20261118';
+import { fragments, words, bio } from '/assets/portfolio/content.js?v=fde-discovery-20261118';
 import { mountNotes, getLatestNotes, topics, subscribeNotes } from '/assets/portfolio/notes.js?v=folio-20261118';
 
 const root=document.documentElement,main=document.getElementById('main'),header=document.getElementById('site-header'),footer=document.getElementById('site-footer');
