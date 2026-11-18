@@ -199,3 +199,7 @@ body {
   .experience.current .employer-identity { gap: 9px; }
   .employer-logo { width: 90px; height: 30px; }
 }
+
+/* Keep each course and its date range together when the dates wrap. */
+.course-terms { display: flex; flex-wrap: wrap; gap: 2px 20px; margin: 0 0 12px; }
+.course-terms > span { white-space: nowrap; }
