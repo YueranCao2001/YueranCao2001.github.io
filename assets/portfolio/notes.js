@@ -218,7 +218,7 @@ function renderNoteRow(entry,lang,navigate,savePosition,topicVisible=true) {
   const title=element('span','note-title',entry.title);
   row.append(date,title);
   if(topicVisible)row.append(element('span','note-topic',label(entry.topic,lang)));
-  const arrow=element('span','note-arrow','↗');arrow.setAttribute('aria-hidden','true');row.append(arrow);
+  const arrow=element('span','note-arrow','→');arrow.setAttribute('aria-hidden','true');row.append(arrow);
   row.addEventListener('click',event=>{
     if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
     event.preventDefault();event.stopPropagation();savePosition();navigate(route(entry.path));
@@ -238,7 +238,6 @@ export function mountNotes({container,lang='zh',path='',onNavigate,onReady}) {
   let normalizedPath=path||'';
   if(normalizedPath&&!validPath(normalizedPath)){try{normalizedPath=decodeURIComponent(normalizedPath);}catch{}}
   const header=element('header','page-heading');
-  header.append(element('p','eyebrow',t('学习与思考','NOTES & IDEAS')));
   const title=element('h1','',t('学习笔记','Learning notes'));header.append(title);
   const intro=element('p','lede',t('从模型原理到系统实践，记录概念推导、代码验证与实验复盘。按时间追踪思考，也可以沿话题深入阅读。','From model foundations to systems practice: derivations, code, and experiments. Follow the work chronologically or explore a topic in depth.'));
   header.append(intro);
