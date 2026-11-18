@@ -176,3 +176,26 @@ body {
   .intro-links { display: none; }
   :root, :root[data-theme="dark"] { --bg:white; --surface:white; --text:black; --muted:#444; --line:#ccc; }
 }
+
+/* Keep the wordmark legible alongside the translated employer name. */
+.experience.current .employer-identity {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 16px;
+}
+.employer-logo {
+  box-sizing: content-box;
+  display: block;
+  width: 108px;
+  height: 36px;
+  padding: 4px 6px;
+  background: #faf8f1;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+@media (max-width: 480px) {
+  .experience.current .employer-identity { gap: 9px; }
+  .employer-logo { width: 90px; height: 30px; }
+}
